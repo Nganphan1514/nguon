@@ -1,0 +1,138 @@
+* {
+    /* Change your font family */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.content-table .Nut a{
+    background-color: #ffffff;
+    border-radius: 40%;
+    width: 50px;
+    display: inline-block;
+        margin-right: 10px;
+        /* Thêm khoảng cách giữa các nút */
+}
+
+
+.Nut {
+    display: inline-block;
+    
+
+    /* Khoảng cách giữa các nút */
+}
+
+.button {
+    margin: 0;
+    /* Đảm bảo không có khoảng cách thừa */
+}
+
+/* Định dạng cho nút Sửa */
+.btn-sua {
+    background-color: #4CAF50;
+    /* Màu xanh lá cây */
+    color: white;
+    /* Màu chữ trắng */
+    border: none;
+    /* Không có viền */
+    border-radius: 12px;
+    /* Bo góc */
+    padding: 10px 20px;
+    /* Khoảng cách bên trong */
+    cursor: pointer;
+    /* Con trỏ khi hover */
+    transition: background-color 0.3s;
+    /* Hiệu ứng chuyển màu */
+    
+}
+
+/* Định dạng cho nút Xoá */
+.btn-xoa {
+    background-color: #f44336;
+    /* Màu đỏ */
+    color: white;
+    /* Màu chữ trắng */
+    border: none;
+    /* Không có viền */
+    border-radius: 12px;
+    /* Bo góc */
+    padding: 10px 20px;
+    /* Khoảng cách bên trong */
+    cursor: pointer;
+    /* Con trỏ khi hover */
+    transition: background-color 0.3s;
+    /* Hiệu ứng chuyển màu */
+    
+}
+
+/* Hiệu ứng khi hover cho nút Sửa */
+.btn-sua:hover {
+    background-color: #45a049;
+    /* Màu xanh lá cây đậm */
+}
+
+/* Hiệu ứng khi hover cho nút Xoá */
+.btn-xoa:hover {
+    background-color: #e53935;
+    /* Màu đỏ đậm */
+}
+
+
+ .button {
+    height: 45px;
+    margin: 35px 0
+}
+
+ .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #4CAF50
+}
+
+ .button input:hover {
+    background: linear-gradient(-135deg, #71b7e6, #1fca7d);
+}
